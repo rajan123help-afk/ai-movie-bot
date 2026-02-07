@@ -14,7 +14,7 @@ from telegram.ext import (
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # 🔴 YAHAN APNA DATABASE CHANNEL USERNAME DALO (without @)
-DATABASE_CHANNEL = -1002410972822
+ DATABASE_CHANNEL = int(os.getenv("DATABASE_CHANNEL"))
 
 # 🧠 Insaan jaisi baat
 SMALL_TALK = [
